@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Project for storing Postman tests",
   "scripts": {
-    "api-test-automation": "newman run Tests/jsonplaceholder.typicode.com.postman_collection.json --reporters cli,junit,html --reporter-junit-export rpt.xml --reporter-html-export test_output/rpt.html --reporter-htmlextra-export test_output2/rpt_ex.html"
+    "api-test-automation": "newman run Tests/jsonplaceholder.typicode.com.postman_collection.json --reporters cli,junit,html,htmlextra --reporter-junit-export rpt.xml --reporter-html-export test_output/rpt.html --reporter-htmlextra-export test_output2/rpt_ex.html"
   },
   "author": "Stefan Dusan",
   "dependencies": {
